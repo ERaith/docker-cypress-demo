@@ -98,7 +98,7 @@ jobs:
           name: Publish Docker Image
           command: |
             echo $DOCKER_PWD | docker login -u $DOCKER_LOGIN --password-stdin
-            docker push YOUR_DOCKER_HUB_ACCOUNT/$IMAGE_NAME:$TAG
+            docker push eraith/$IMAGE_NAME:$TAG
 
 workflows:
   version: 2.1
