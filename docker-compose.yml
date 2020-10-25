@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   web:
-    image: YOUR_DOCKER_HUB_ACCOUNT/${IMAGE_NAME}:${TAG}
+    image: eraith/${IMAGE_NAME}:${TAG}
     tty: true
     environment:
       - NODE_ENV=production
