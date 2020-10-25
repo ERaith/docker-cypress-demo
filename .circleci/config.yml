@@ -1,6 +1,6 @@
 defaults: &defaults
   machine:
-    docker_layer_caching: true
+    docker_layer_caching: false
 
 version: 2.1
 commands:
